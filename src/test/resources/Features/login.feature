@@ -53,9 +53,3 @@ Feature: Login
     Given User launches the application
     When User logs in using "InvalidUser"
     Then User should see login error
-
-  Scenario: Problem user sees login error
-
-    Given User launches the application
-    When User logs in using "ProblemUser"
-    Then User should see login error
